@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GithubLink_UH
+F https://github.com/uherting/MyKiCADRep
+$ENDCMP
+#
+$CMP I2C_Address_Selection
+D address selection A0 / A1 / A2
+K I2C
+$ENDCMP
+#
+$CMP LvlShifter4xM
+D level shifter 4 inputs/outputs
+K lvl shift
+$ENDCMP
+#
+$CMP MCP23017M
+D MCP23017 module
+K port expander
+$ENDCMP
+#
+$CMP NodeMCUv1M
+D NodeMCU v1 module
+K ESP8266 dev board nodemcu
+$ENDCMP
+#
+#End Doc Library

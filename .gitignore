@@ -6,6 +6,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 *~
 _autosave-*
 *.tmp
@@ -20,7 +21,24 @@ _autosave-*
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+*.bin
 
 # Exported BOM files
 *.xml
 *.csv
+
+# snapshots (plots.zip files go for production. that is why we keep them!)
+*.tar
+*.bz2
+*.zip
+!plots.zip
+
+# gerber and gerber related files
+*.gbr
+*.rpt
+*.drl
+*.ps
+
+# huge files no idea for what
+fp-info-cache
+
