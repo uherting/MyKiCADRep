@@ -42,3 +42,6 @@ _autosave-*
 # huge files no idea for what
 fp-info-cache
 
+# ignore the cloned digikey lib from github
+digikey-footprints.pretty
+digikey-symbols
