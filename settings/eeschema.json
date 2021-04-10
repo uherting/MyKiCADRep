@@ -1,6 +1,6 @@
 {
   "annotation": {
-    "messages_filter": -1,
+    "messages_filter": 29,
     "method": 0,
     "sort_order": 0
   },
@@ -96,20 +96,20 @@
     "drag_is_move": true
   },
   "lib_tree": {
-    "column_width": 362
+    "column_width": 366
   },
   "lib_view": {
-    "cmp_list_width": 150,
-    "lib_list_width": 150,
+    "cmp_list_width": 257,
+    "lib_list_width": 299,
     "show_pin_electrical_type": true,
     "window": {
       "display": 0,
       "maximized": false,
-      "perspective": "",
-      "pos_x": 0,
-      "pos_y": 0,
-      "size_x": 500,
-      "size_y": 400
+      "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=557;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=299;besth=-1;minw=80;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Symbols;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=257;besth=-1;minw=80;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(3,6,0)=34|dock_size(4,3,0)=301|dock_size(4,1,0)=259|dock_size(5,0,0)=384|",
+      "pos_x": 94,
+      "pos_y": 65,
+      "size_x": 1280,
+      "size_y": 572
     }
   },
   "meta": {
@@ -178,20 +178,23 @@
     "keep_symbol": false,
     "place_all_units": true,
     "sash_pos_h": 775,
-    "sash_pos_v": -1,
+    "sash_pos_v": 489,
     "width": 1232
   },
   "system": {
     "file_history": [
+      "/home/uwe/Git/UH/MyKiCADRep/projects/HA_OPTO_COUPLER_01/HA_OPTO_COUPLER_01.kicad_sch",
+      "/home/uwe/Git/UH/MyKiCADRep/projects/HA_BJT_NPN_interface/HA_BJT_NPN_interface.kicad_sch",
+      "/home/uwe/Git/UH/MyKiCADRep/projects/HA_control_SSRs/HA_control_SSRs.kicad_sch",
+      "/home/uwe/uh_kicad/projects/HA_BJT_NPN_interface/HA_BJT_NPN_interface.kicad_sch",
       "/home/uwe/uh_kicad/projects/HA_control_SSRs/HA_control_SSRs.kicad_sch",
       "/home/uwe/uh_kicad/projects/HA_ESP8266_01/HA_ESP8266_01.kicad_sch",
-      "/home/uwe/uh_kicad/projects/HA_ESP8266_01/HA_ESP8266_01.sch",
-      "/home/uwe/uh_kicad/projects/HA_BJT_NPN_interface/HA_BJT_NPN_interface.kicad_sch"
+      "/home/uwe/uh_kicad/projects/HA_ESP8266_01/HA_ESP8266_01.sch"
     ],
     "first_run_shown": true,
     "last_imperial_units": 0,
     "last_metric_units": 1,
-    "last_symbol_lib_dir": "/home/uwe/Git/UH/MyKiCADRep/libraries/digikey-symbols/dk_Terminal-Blocks-Wire-to-Board.kicad_sym",
+    "last_symbol_lib_dir": "/home/uwe/Git/UH/MyKiCADRep/libraries/digikey-symbols/dk_Optoisolators-Logic-Output.lib",
     "max_undo_items": 0,
     "never_show_rescue_dialog": false,
     "units": 1
@@ -224,13 +227,13 @@
       "user_grid_x": "10 mil",
       "user_grid_y": "10 mil"
     },
-    "maximized": false,
+    "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1099;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=232;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=602;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=389|dock_size(3,6,0)=34|",
-    "pos_x": 101,
-    "pos_y": 72,
-    "size_x": 1358,
-    "size_y": 731,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1099;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=232;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=384|dock_size(3,6,0)=34|",
+    "pos_x": 163,
+    "pos_y": 116,
+    "size_x": 1280,
+    "size_y": 572,
     "zoom_factors": [
       0.05,
       0.07,

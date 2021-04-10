@@ -5,7 +5,7 @@
   },
   "aui": {
     "appearance_panel_tab": 0,
-    "right_panel_width": -1,
+    "right_panel_width": 312,
     "show_layer_manager": true
   },
   "cleanup": {
@@ -26,9 +26,9 @@
   },
   "drc_dialog": {
     "refill_zones": true,
-    "severities": 24,
+    "severities": 16,
     "test_all_track_errors": false,
-    "test_footprints": false
+    "test_footprints": true
   },
   "editing": {
     "allow_free_pads": false,
@@ -87,14 +87,14 @@
     "width": -1
   },
   "footprint_viewer": {
-    "auto_zoom": false,
+    "auto_zoom": true,
     "cursor": {
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
     "display": 0,
     "grid": {
-      "axes_enabled": false,
+      "axes_enabled": true,
       "fast_grid_1": 1,
       "fast_grid_2": 2,
       "last_size": 1,
@@ -132,12 +132,12 @@
     },
     "maximized": false,
     "mru_path": "",
-    "perspective": "",
-    "pos_x": 0,
-    "pos_y": 0,
-    "size_x": 0,
-    "size_y": 0,
-    "zoom": 1.0,
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=749;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=410;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=200;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(4,3,0)=34|dock_size(3,6,0)=34|dock_size(4,2,0)=202|dock_size(4,1,0)=302|dock_size(5,0,0)=384|",
+    "pos_x": 134,
+    "pos_y": 404,
+    "size_x": 1280,
+    "size_y": 535,
+    "zoom": 7.131863930640532,
     "zoom_factors": []
   },
   "footprint_wizard": {
@@ -207,7 +207,7 @@
     "zeros_format": 0
   },
   "graphics": {
-    "canvas_type": 2,
+    "canvas_type": 1,
     "high_contrast_factor": 0.3499999940395355,
     "highlight_factor": 0.5,
     "select_factor": 0.75
@@ -223,22 +223,23 @@
     "origin_y": 0.0
   },
   "lib_tree": {
-    "column_width": 360
+    "column_width": 367
   },
   "meta": {
     "version": 0
   },
   "netlist": {
-    "associate_by_ref_sch": false,
-    "delete_extra_footprints": false,
-    "delete_shorting_tracks": false,
-    "delete_single_pad_nets": false,
-    "report_filter": -1,
+    "associate_by_ref_sch": true,
+    "delete_extra_footprints": true,
+    "delete_shorting_tracks": true,
+    "delete_single_pad_nets": true,
+    "report_filter": 29,
     "update_footprints": true
   },
   "pcb_display": {
     "graphic_items_fill": true,
     "graphics_fill": true,
+    "live_3d_refresh": false,
     "max_links_shown": 3,
     "net_names_mode": 3,
     "origin_invert_x_axis": false,
@@ -299,14 +300,49 @@
     "annotate_update_schematic": true
   },
   "system": {
-    "file_history": [],
-    "first_run_shown": false,
-    "last_footprint3d_dir": "",
+    "file_history": [
+      "/home/uwe/Git/UH/MyKiCADRep/projects/HA_OPTO_COUPLER_01/HA_OPTO_COUPLER_01.kicad_pcb",
+      "/home/uwe/Git/UH/MyKiCADRep/projects/HA_BJT_NPN_interface/HA_BJT_NPN_interface.kicad_pcb",
+      "/home/uwe/Git/UH/MyKiCADRep/projects/HA_ESP8266_01/HA_ESP8266_01.kicad_pcb",
+      "/home/uwe/uh_kicad/projects/HA_BJT_NPN_interface/HA_BJT_NPN_interface.kicad_pcb",
+      "/home/uwe/uh_kicad/projects/HA_ESP8266_01/HA_ESP8266_01.kicad_pcb"
+    ],
+    "first_run_shown": true,
+    "last_footprint3d_dir": "/usr/share/kicad-nightly/3dmodels/",
     "last_footprint_lib_dir": "/home/uwe/Git/UH/MyKiCADRep/libraries/digikey-footprints.pretty",
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
     "units": 1
+  },
+  "tools": {
+    "pns": {
+      "auto_posture": true,
+      "can_violate_drc": false,
+      "corner_mode": 1,
+      "effort": 1,
+      "fix_all_segments": true,
+      "follow_mouse": true,
+      "free_angle_mode": false,
+      "inline_drag": false,
+      "jump_over_obstacles": false,
+      "meta": {
+        "version": 0
+      },
+      "mode": 2,
+      "optimize_dragged_track": true,
+      "remove_loops": true,
+      "shove_iteration_limit": 250,
+      "shove_time_limit": 1000,
+      "shove_vias": true,
+      "smart_pads": true,
+      "smooth_dragged_segments": true,
+      "snap_to_pads": true,
+      "snap_to_tracks": true,
+      "start_diagonal": false,
+      "suggest_finish": false,
+      "walkaround_iteration_limit": 40
+    }
   },
   "window": {
     "cursor": {
@@ -317,9 +353,9 @@
     "footprint_text_shown_columns": "0 1 2 3 4 5 6",
     "grid": {
       "axes_enabled": false,
-      "fast_grid_1": 1,
-      "fast_grid_2": 2,
-      "last_size": 1,
+      "fast_grid_1": 5,
+      "fast_grid_2": 4,
+      "last_size": 6,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "show": true,
@@ -349,16 +385,16 @@
       ],
       "snap": 0,
       "style": 0,
-      "user_grid_x": "10 mil",
-      "user_grid_y": "10 mil"
+      "user_grid_x": "0.254 mm",
+      "user_grid_y": "0.254 mm"
     },
-    "maximized": false,
+    "maximized": true,
     "mru_path": "",
-    "perspective": "",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1144;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=861;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=526;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(1,5,0)=38|dock_size(3,6,0)=34|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=312|dock_size(5,0,0)=384|",
     "pos_x": 0,
     "pos_y": 0,
-    "size_x": 0,
-    "size_y": 0,
+    "size_x": 1280,
+    "size_y": 572,
     "zoom_factors": [
       0.13,
       0.22,
@@ -382,7 +418,7 @@
   },
   "zones": {
     "clearance": 20.0,
-    "hatching_style": 0,
+    "hatching_style": 2,
     "min_thickness": 10.0,
     "net_filter": "",
     "net_sort_mode": 1,
