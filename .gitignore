@@ -38,6 +38,7 @@ _autosave-*
 *.rpt
 *.drl
 *.ps
+*.gbrjob
 
 # huge files no idea for what
 fp-info-cache
