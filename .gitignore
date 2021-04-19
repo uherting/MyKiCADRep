@@ -39,6 +39,7 @@ _autosave-*
 *.drl
 *.ps
 *.gbrjob
+**/plots
 
 # huge files no idea for what
 fp-info-cache

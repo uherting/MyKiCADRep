@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "HA_OPTO_COUPLER_03-plots/")
+      (outputdirectory "plots/")
     )
   )
 
@@ -106,7 +106,7 @@
 
   (footprint "UH_HA:Copyright-Uwe_Herting" (layer "F.Cu")
     (tedit 5D9F43FB) (tstamp 03ffe8a6-b9be-4a15-b18e-45313629be85)
-    (at 154.305 115.57)
+    (at 154.305 107.315)
     (property "Sheetfile" "HA_OPTO_COUPLER_03.kicad_sch")
     (property "Sheetname" "")
     (path "/b3506c18-f718-4445-a129-7b89573f1ef4")
@@ -204,9 +204,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 8441ddf4-b3c1-42bb-a4b2-641163b8d4de))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp d222e618-aac9-4a84-a335-af1e00d0c101))
     (pad "1" smd roundrect (at -1 0 90) (locked) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
-      (net 23 "Net-(R2-Pad1)") (pintype "passive") (tstamp 514f58b9-7665-4c28-b8d6-9cc2d2e98980))
+      (net 23 "Net-(R2-Pad1)") (tstamp 514f58b9-7665-4c28-b8d6-9cc2d2e98980))
     (pad "2" smd roundrect (at 1 0 90) (locked) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
-      (net 9 "VCC") (pintype "passive") (tstamp 2405c14d-d629-4d8d-b385-4773fd6bc96b))
+      (net 9 "VCC") (tstamp 2405c14d-d629-4d8d-b385-4773fd6bc96b))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -216,7 +216,7 @@
 
   (footprint "UH_HA:PCB_Version" (layer "F.Cu")
     (tedit 5E2DCD0C) (tstamp 3445189c-59fd-4f58-a69a-e2194896acbf)
-    (at 154.305 113.665)
+    (at 154.305 105.41)
     (property "Sheetfile" "HA_OPTO_COUPLER_03.kicad_sch")
     (property "Sheetname" "")
     (path "/3accd7f6-2913-4cf7-8f4c-9e796dbc15f0")
@@ -271,6 +271,23 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (footprint "UH_HA:GithubLink_UH" (layer "F.Cu")
+    (tedit 607C6FA5) (tstamp 53b04cc0-e70a-44b5-85f9-6e2c90c053ca)
+    (at 153.035 116.84)
+    (property "Sheetfile" "HA_OPTO_COUPLER_03.kicad_sch")
+    (property "Sheetname" "")
+    (path "/bb68bce0-f63c-4b51-827c-202378db37b7")
+    (fp_text reference "T3" (at 0 1.27 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 2c5baa19-ea6a-4e3e-be9b-f9ce7dbcb2a3)
+    )
+    (fp_text value "JLCJLCJLCJLC" (at 0 -1.27 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 7fe8914b-7579-4383-815f-8ea3e310b52c)
+    )
+    (fp_line (start -2.54 0) (end 2.54 0) (layer "F.Fab") (width 0.12) (tstamp 3c0b170d-b5cc-4b79-adc6-23291fd5f47f))
   )
 
   (footprint "UH_HA:Term_Block_1x2_P5mm" (layer "F.Cu")
@@ -629,7 +646,7 @@
 
   (footprint "UH_HA:PCB_Name" (layer "F.Cu")
     (tedit 5D9F442E) (tstamp f36c05d5-7a9a-4962-a20d-020aa8ca701e)
-    (at 154.305 111.76)
+    (at 154.305 103.505)
     (property "Sheetfile" "HA_OPTO_COUPLER_03.kicad_sch")
     (property "Sheetname" "")
     (path "/ef122801-95d3-44b6-bb4a-f547e7e15b85")
