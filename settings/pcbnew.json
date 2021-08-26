@@ -5,7 +5,7 @@
   },
   "aui": {
     "appearance_panel_tab": 0,
-    "right_panel_width": 180,
+    "right_panel_width": 362,
     "show_layer_manager": true
   },
   "cleanup": {
@@ -53,7 +53,9 @@
     "origin_mode": 0,
     "origin_units": 0,
     "origin_x": 0.0,
-    "origin_y": 0.0
+    "origin_y": 0.0,
+    "overwrite_file": true,
+    "replace_models": false
   },
   "export_svg": {
     "black_and_white": false,
@@ -252,6 +254,7 @@
     "ratsnest_footprint": true,
     "ratsnest_global": true,
     "rotation_angle": 900,
+    "show_page_borders": true,
     "text_fill": true,
     "track_clearance_mode": 2,
     "track_fill": true,
@@ -262,7 +265,8 @@
     "file_format": 0,
     "file_options": 0,
     "include_board_edge": false,
-    "units": 1
+    "units": 1,
+    "use_place_file_origin": true
   },
   "plot": {
     "all_layers_on_one_page": 1,
@@ -276,9 +280,12 @@
   "printing": {
     "background": false,
     "color_theme": "",
-    "layers": [],
-    "monochrome": true,
-    "scale": 1.0,
+    "layers": [
+      31,
+      36
+    ],
+    "monochrome": false,
+    "scale": 0.0,
     "title_block": false,
     "use_theme": false
   },
@@ -344,6 +351,7 @@
       "snap_to_tracks": true,
       "start_diagonal": false,
       "suggest_finish": false,
+      "walkaround_hug_length_threshold": 1.5,
       "walkaround_iteration_limit": 40
     }
   },
@@ -393,11 +401,11 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1144;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=861;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=556;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=600;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(1,5,0)=38|dock_size(3,6,0)=34|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=180|dock_size(5,0,0)=384|",
-    "pos_x": 197,
-    "pos_y": 79,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1144;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=861;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=565;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=637;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=387;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=38|dock_size(1,5,0)=38|dock_size(3,6,0)=34|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=362|dock_size(5,0,0)=384|",
+    "pos_x": 322,
+    "pos_y": 27,
     "size_x": 1280,
-    "size_y": 646,
+    "size_y": 683,
     "zoom_factors": [
       0.13,
       0.22,

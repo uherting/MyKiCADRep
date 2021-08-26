@@ -13,6 +13,11 @@
     "limit_total_size": 104857600,
     "min_interval": 300
   },
+  "do_not_show_again": {
+    "env_var_overwrite_warning": false,
+    "scaled_3d_models_warning": false,
+    "zone_fill_warning": false
+  },
   "environment": {
     "show_warning_dialog": false,
     "vars": {
@@ -64,6 +69,6 @@
     "language": "English",
     "pdf_viewer_name": "",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/uwe/Git/UH/MyKiCADRep/projects/HA_ESP8266_01"
+    "working_dir": "/home/uwe"
   }
 }

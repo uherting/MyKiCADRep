@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 4122c453-bfed-401f-90c6-57ec1e76cbb6)
 
@@ -6,8 +6,8 @@
 
   (title_block
     (title "HA-OPTO_COUPLER_03")
-    (date "2021-04-18")
-    (rev "0.992")
+    (date "2021-08-26")
+    (rev "0.994")
   )
 
   (lib_symbols
@@ -1332,6 +1332,15 @@
     (uuid 2e85ad87-3113-4442-8d53-c79d1d92f399)
   )
 
+  (text "R0.994: added values for resistors" (at 179.07 177.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eba86025-4e58-48cf-b55c-d770aedf27f1)
+  )
+  (text "R0.993: Footprint BC817 == MMBT3904" (at 179.07 180.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c7582f2a-38e5-41cf-8185-3bb6fff9be2b)
+  )
+
   (global_label "GPIO_1" (shape input) (at 24.13 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0eef2e22-1c65-417b-ba13-08839317f9c8)
@@ -1424,19 +1433,17 @@
   )
 
   (symbol (lib_id "UH_HA:https___github.com_uherting_MyKiCADRep") (at 236.22 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid df5a76cd-0c42-4f7b-a35a-c4687cbe96ce)
-    (property "Reference" "T3" (id 0) (at 237.49 151.7649 0)
+    (property "Reference" "T3" (id 0) (at 237.49 151.1299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "https___github.com_uherting_MyKiCADRep" (id 1) (at 236.22 154.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
+    (property "Value" "github.com{slash}uherting{slash}MyKiCADRep" (id 1) (at 254 153.67 0))
     (property "Footprint" "UH_HA:GithubLink_UH" (id 2) (at 237.49 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://github.com/uherting/MyKiCADRep" (id 3) (at 237.49 154.3049 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Datasheet" "uherting.MyKiCADRep @ GitHub" (id 3) (at 237.49 153.6699 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
@@ -1446,7 +1453,7 @@
     (property "Reference" "T4" (id 0) (at 236.855 158.877 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "v0.992" (id 1) (at 236.855 161.163 0)
+    (property "Value" "v0.994" (id 1) (at 236.855 161.163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "UH_HA:PCB_Version" (id 2) (at 237.49 165.1 0)
@@ -1669,7 +1676,7 @@
     (in_bom yes) (on_board yes)
     (uuid 9cf420cf-2ff3-4678-8afb-c7970a4ac43d)
     (property "Reference" "R1" (id 0) (at 30.48 103.378 90))
-    (property "Value" "R" (id 1) (at 30.48 105.41 90))
+    (property "Value" "15k" (id 1) (at 30.48 107.95 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 30.48 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1684,7 +1691,7 @@
     (in_bom yes) (on_board yes)
     (uuid 67811992-e1a1-4368-8aa2-6cfa6ae5cc74)
     (property "Reference" "R2" (id 0) (at 42.418 80.01 90))
-    (property "Value" "R" (id 1) (at 44.45 80.01 90))
+    (property "Value" "200" (id 1) (at 46.99 80.01 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 46.228 80.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1699,7 +1706,7 @@
     (in_bom yes) (on_board yes)
     (uuid 15e05f3c-bb85-4bd0-ae61-696b2fb161ed)
     (property "Reference" "R3" (id 0) (at 121.92 103.378 90))
-    (property "Value" "R" (id 1) (at 121.92 105.41 90))
+    (property "Value" "15k" (id 1) (at 121.92 107.95 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 121.92 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1714,7 +1721,7 @@
     (in_bom yes) (on_board yes)
     (uuid 3e807842-f325-4ff9-a071-138cb1abbbde)
     (property "Reference" "R4" (id 0) (at 133.858 80.01 90))
-    (property "Value" "R" (id 1) (at 135.89 80.01 90))
+    (property "Value" "200" (id 1) (at 138.43 80.01 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 137.668 80.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1729,7 +1736,7 @@
     (in_bom yes) (on_board yes)
     (uuid caa63a1e-8058-4dd2-bc99-66700844109c)
     (property "Reference" "R5" (id 0) (at 214.63 103.378 90))
-    (property "Value" "R" (id 1) (at 214.63 105.41 90))
+    (property "Value" "15k" (id 1) (at 214.63 107.95 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 214.63 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1744,7 +1751,7 @@
     (in_bom yes) (on_board yes)
     (uuid 04a8e636-9292-4dca-9bfd-2396b4eb6521)
     (property "Reference" "R6" (id 0) (at 226.568 80.01 90))
-    (property "Value" "R" (id 1) (at 228.6 80.01 90))
+    (property "Value" "200" (id 1) (at 231.14 80.01 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 230.378 80.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1761,8 +1768,8 @@
     (property "Reference" "J1" (id 0) (at 49.53 24.7649 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "TerminalBlock_2pin" (id 1) (at 53.34 31.1149 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+    (property "Value" "TerminalBlock_2pin" (id 1) (at 53.34 38.7349 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "UH_HA:Term_Block_1x2_P5mm" (id 2) (at 45.72 33.02 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
@@ -2316,22 +2323,22 @@
       (reference "Q3") (unit 1) (value "MMBT3904") (footprint "UH_HA:SOT-23")
     )
     (path "/9cf420cf-2ff3-4678-8afb-c7970a4ac43d"
-      (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/67811992-e1a1-4368-8aa2-6cfa6ae5cc74"
-      (reference "R2") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R2") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/15e05f3c-bb85-4bd0-ae61-696b2fb161ed"
-      (reference "R3") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R3") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/3e807842-f325-4ff9-a071-138cb1abbbde"
-      (reference "R4") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/caa63a1e-8058-4dd2-bc99-66700844109c"
-      (reference "R5") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R5") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/04a8e636-9292-4dca-9bfd-2396b4eb6521"
-      (reference "R6") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R6") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ef122801-95d3-44b6-bb4a-f547e7e15b85"
       (reference "T1") (unit 1) (value "HA-OPTO_COUPLER_03") (footprint "UH_HA:PCB_Name")
@@ -2340,10 +2347,10 @@
       (reference "T2") (unit 1) (value "(C)UweHerting") (footprint "UH_HA:Copyright-Uwe_Herting")
     )
     (path "/df5a76cd-0c42-4f7b-a35a-c4687cbe96ce"
-      (reference "T3") (unit 1) (value "https___github.com_uherting_MyKiCADRep") (footprint "UH_HA:GithubLink_UH")
+      (reference "T3") (unit 1) (value "github.com{slash}uherting{slash}MyKiCADRep") (footprint "UH_HA:GithubLink_UH")
     )
     (path "/3accd7f6-2913-4cf7-8f4c-9e796dbc15f0"
-      (reference "T4") (unit 1) (value "v0.992") (footprint "UH_HA:PCB_Version")
+      (reference "T4") (unit 1) (value "v0.994") (footprint "UH_HA:PCB_Version")
     )
     (path "/06fcd9b0-d4c4-4e3d-8069-42db06a687df"
       (reference "U1") (unit 1) (value "EL817") (footprint "UH_HA:EL817-S1T")
