@@ -6,8 +6,8 @@
 
   (title_block
     (title "HA-OPTO_COUPLER_03")
-    (date "2021-08-26")
-    (rev "0.994")
+    (date "2021-09-18")
+    (rev "0.9941")
   )
 
   (lib_symbols
@@ -1332,6 +1332,15 @@
     (uuid 2e85ad87-3113-4442-8d53-c79d1d92f399)
   )
 
+  (text "JP1/3/5(pads 3/2) and JP2/4/6(pads 3/2) connected => octocoupler in use\notherwise: GND and BJT directly connected"
+    (at 179.07 170.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1335f32d-b74c-49bb-8e73-a5ab928b8ca3)
+  )
+  (text "R0.9941: added description for the solder jumpers" (at 179.07 175.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7cfa9ac6-2edd-44b1-89a4-8e4351b8475a)
+  )
   (text "R0.994: added values for resistors" (at 179.07 177.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eba86025-4e58-48cf-b55c-d770aedf27f1)

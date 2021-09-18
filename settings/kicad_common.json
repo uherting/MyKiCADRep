@@ -1,5 +1,6 @@
 {
   "appearance": {
+    "apply_icon_scale_to_fonts": false,
     "canvas_scale": 1.0,
     "icon_scale": 0,
     "icon_theme": 2,
