@@ -69,7 +69,8 @@
     "file_history_size": 9,
     "language": "English",
     "pdf_viewer_name": "",
+    "text_editor": "",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/uwe"
+    "working_dir": "/home/uwe/Git/UH/MyKiCADRep/projects/HA_adapter_03_powerandsensors/plot"
   }
 }
